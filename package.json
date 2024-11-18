@@ -2,7 +2,7 @@
   "name": "nodejs-mongo-proba",
   "version": "1.0.0",
   "description": " ",
-  "type":"module",
+  "type": "module",
   "main": "src/index.js",
   "scripts": {
     "lint": "eslint src/**/*.js",
@@ -10,7 +10,7 @@
     "dev": "nodemon src/index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "student",
   "license": "ISC",
   "devDependencies": {
     "@eslint/js": "^9.15.0",
@@ -19,6 +19,9 @@
     "nodemon": "^3.1.7"
   },
   "dependencies": {
-    "editorconfig": "^2.0.0"
+    "dotenv": "^16.4.5",
+    "editorconfig": "^2.0.0",
+    "express": "^4.21.1",
+    "mongoose": "^8.8.1"
   }
 }
