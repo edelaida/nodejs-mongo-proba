@@ -1,11 +1,6 @@
 import mongoose from 'mongoose';
 import { env } from '../utils/env.js';
 
-// const DB_URI = `mongodb+srv://edelaida:UBAMSpvPnXeQUffJ@cluster0.9thvc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`;
-
-// export async function initMongoConnection() {
-//   await mongoose.connect(DB_URI);
-// }
 export const initMongoConnection = async () => {
   try {
     const user = env('MONGODB_USER');
